@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYFEEYAHFACES - Makeup That Speaks</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icon library for social links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-white text-gray-800 font-body">
+
+    <!-- Navbar & Hero -->
+    <header id="hero" class="relative bg-black text-white py-6 shadow-xl">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <!-- Logo/Brand -->
+            <h2 class="text-3xl md:text-4xl font-header font-bold tracking-widest uppercase">
+                B Y F E E Y A H <span class="gold-accent">F A C E S</span>
+            </h2>
+            
+            <!-- Menu Button (Mobile) -->
+            <button class="md:hidden text-2xl" onclick="document.getElementById('nav-menu').classList.toggle('hidden')">
+                ≡
+            </button>
+            
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex space-x-6 text-sm uppercase tracking-wider font-semibold">
+                <a href="#welcome" class="hover:gold-accent transition duration-300">Welcome</a>
+                <a href="#about" class="hover:gold-accent transition duration-300">About Me</a>
+                <a href="#services" class="hover:gold-accent transition duration-300">Services</a>
+                <a href="#bridal" class="hover:gold-accent transition duration-300">Bridal</a>
+                <a href="#contact" class="hover:gold-accent transition duration-300">Contact</a>
+            </nav>
+        </div>
+        
+        <!-- Mobile Navigation Menu -->
+        <nav id="nav-menu" class="hidden md:hidden bg-gray-900 mt-4 mx-4 rounded-lg shadow-lg">
+            <a href="#welcome" class="block py-2 px-4 hover:bg-gray-700 rounded-t-lg">Welcome</a>
+            <a href="#about" class="block py-2 px-4 hover:bg-gray-700">About Me</a>
+            <a href="#services" class="block py-2 px-4 hover:bg-gray-700">Services</a>
+            <a href="#bridal" class="block py-2 px-4 hover:bg-gray-700">Bridal</a>
+            <a href="#contact" class="block py-2 px-4 hover:bg-gray-700 rounded-b-lg">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Sub-Header -->
+    <section id="hero" class="hero-bg h-[60vh] md:h-[80vh] flex items-center justify-center relative">
+            <div class="absolute inset-0 bg-black/50"></div>
+            <div class="relative text-center text-white p-6">
+                <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight">Makeup That Speaks </h1>
+                <p class="mt-4 text-lg md:text-xl max-w-2xl mx-auto">Crafting timeless beauty for your most memorable moments.</p>
+                
+            </div>
+        </section>
+    
+    <!-- Welcome Section -->
+    <section id="welcome" class="container mx-auto p-8 md:p-12 my-10 max-w-4xl rounded-xl shadow-lg bg-white">
+        <h3 class="text-3xl font-header font-bold mb-4 text-center border-b-2 border-accent-brown pb-2">
+            Welcome to ByFeeyahFaces ✨
+        </h3>
+        <p class="text-lg leading-relaxed text-gray-600">
+            Welcome to <b>ByFeeyahFaces</b>, where beauty meets confidence. We believe makeup should do more than just enhance your looks—it should <b>tell your story</b>. That’s why our tagline is <b>Makeup That Speaks</b>.
+        </p>
+        <p class="mt-4 text-lg leading-relaxed text-gray-600">
+            Whether you want a soft everyday glow, a bold statement look, or the perfect glam for your special day, we're here to bring out your unique beauty and make you feel truly unforgettable.
+        </p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="bg-black text-white py-16 px-4">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-4xl font-header font-bold mb-10 text-center gold-accent">
+                About Me
+            </h2>
+            
+            <div class="md:flex md:space-x-12 items-center">
+                <!-- Image Placeholder -->
+                <div class="md:w-1/2">
+                    <img src='images/aboutme3.jpg' alt="Makeup artist kit" class="rounded-lg shadow-2xl">
+                </div>
+                
+                <!-- Text Content -->
+                <div class="md:w-2/3 font-body text-gray-300">
+                    <p class="text-xl font-semibold mb-4 text-white">
+                        My name is <span class="gold-accent">Rafeeia Awudu</span>, the heart and hands behind ByFeeyahFaces.
+                    </p>
+                    <p class="mb-4 leading-relaxed">
+                        As the first child in my family, I grew up with a natural love for beauty and creativity. I vividly remember sneaking into my mother’s makeup bag as a little girl, experimenting, and even once shaving off my eyebrows only to proudly draw them back on with a pencil. Even then, I knew beauty was about <b>confidence and expression</b>.
+                    </p>
+                    <p class="mb-4 leading-relaxed">
+                        In high school, makeup became my passion. I loved helping my friends get ready for events, turning entertainment nights into opportunities to create, experiment, and learn. In university, I saved up to order my very first set of professional makeup products from Nigeria, launching my first real makeup business.
+                    </p>
+                    <p class="mb-4 leading-relaxed">
+                        The journey wasn’t a straight line. Life's challenges led me to step away from makeup for three years. However, destiny called me back. One evening, a close friend asked me to do her makeup, and the joy I felt reignited the passion I thought I had lost.
+                    </p>
+                    <p class="text-lg leading-relaxed text-white">
+                        Today, ByFeeyahFaces is a story of <b>resilience, passion, and purpose</b>. Every face I work on is a canvas where I bring out confidence, elegance, and beauty. My dream is to grow ByFeeyah into a global brand that expands into other creative ventures, including fashion and beauty products. Makeup, to me, is about helping people see the best version of themselves, guided by the same fearless spirit of the little girl who once shaved her eyebrows and still believed she looked beautiful.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="container mx-auto p-8 md:p-12 my-10 max-w-6xl">
+        <h2 class="text-4xl font-header font-bold mb-10 text-center text-gray-900 border-b-4 border-accent-brown pb-2">
+            Services & Rate Card
+        </h2>
+
+        <!-- Walk-In Services -->
+        <div class="mb-12 bg-gray-50 p-6 rounded-xl shadow-lg">
+            <h3 class="text-3xl font-header font-semibold mb-6 text-center gold-accent">WALK-IN SERVICES</h3>
+            
+            <div class="flex flex-col md:flex-row md:space-x-8">
+                <!-- Images (Left) -->
+                <div class="md:w-1/3 mb-6 md:mb-0 space-y-4">
+                    <img src="images/walkin1.jpg" alt="Soft Glam Makeup Example" class="mua-img">
+                    <img src="images/walkin2.jpg" alt="Full Glam Makeup Example" class="mua-img">
+                </div>
+
+                <!-- Price Table & T&Cs (Right) -->
+                <div class="md:w-2/3">
+                    <!-- Price Table -->
+                    <div class="mb-6 bg-white p-6 rounded-lg shadow-soft">
+                        <table class="w-full text-left">
+                            <thead>
+                                <tr class="border-b-2 border-gray-200">
+                                    <th class="py-2 text-lg font-semibold">Service</th>
+                                    <th class="py-2 text-lg font-semibold text-right">Price (GHS)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b border-gray-100">
+                                    <td class="py-3">Soft Glam</td>
+                                    <td class="py-3 text-right font-bold">GHS 350</td>
+                                </tr>
+                                <tr class="border-b border-gray-100">
+                                    <td class="py-3">Full Glam</td>
+                                    <td class="py-3 text-right font-bold">GHS 400</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3">Evening Glam (after 6 PM)</td>
+                                    <td class="py-3 text-right font-bold">GHS 500</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Terms and Conditions -->
+                    <div class="bg-gray-200 p-4 rounded-lg text-sm text-gray-700">
+                        <p class="font-bold text-gray-900 mb-2">* Terms and Conditions Applied:</p>
+                        <ul class="list-disc list-inside space-y-1 ml-2">
+                            <li>A <b>50% deposit</b> is required to secure booking; this amount is <b>non-refundable & non-transferable</b>.</li>
+                            <li>The balance must be fully settled before service commences.</li>
+                            <li>A grace period of up to 30 minutes is allowed; any delay thereafter will attract a fee of <b>GHS 100 per hour</b>.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Home/Studio Services -->
+        <div class="mb-12 bg-gray-50 p-6 rounded-xl shadow-lg">
+            <h3 class="text-3xl font-header font-semibold mb-6 text-center gold-accent">HOME/STUDIO SERVICES</h3>
+            
+            <div class="flex flex-col md:flex-row md:space-x-8">
+                <!-- Image (Left) -->
+                <div class="md:w-1/3 mb-6 md:mb-0">
+                    <img src="images/homeservices1.jpg" alt="Model in red strapless top" class="mua-img max-h-96">
+                </div>
+
+                <!-- Price Table & Notes (Right) -->
+                <div class="md:w-2/3">
+                    <!-- Price Table -->
+                    <div class="mb-6 bg-white p-6 rounded-lg shadow-soft">
+                        <table class="w-full text-left">
+                            <thead>
+                                <tr class="border-b-2 border-gray-200">
+                                    <th class="py-2 text-lg font-semibold">Service</th>
+                                    <th class="py-2 text-lg font-semibold text-right">Price (GHS)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b border-gray-100">
+                                    <td class="py-3">Soft Glam</td>
+                                    <td class="py-3 text-right font-bold">GHS 500</td>
+                                </tr>
+                                <tr class="border-b border-gray-100">
+                                    <td class="py-3">Full Glam</td>
+                                    <td class="py-3 text-right font-bold">GHS 600</td>
+                                </tr>
+                                <tr class="border-b border-gray-100">
+                                    <td class="py-3">Evening Glam (after 6 PM)</td>
+                                    <td class="py-3 text-right font-bold">GHS 750</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3">Photoshoots (Birthdays, etc.)</td>
+                                    <td class="py-3 text-right font-bold">GHS 1000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Notes & T&Cs -->
+                    <div class="bg-gray-200 p-4 rounded-lg text-sm text-gray-700 space-y-3">
+                        <p class="font-bold text-gray-900 mb-2">* Important Notes:</p>
+                        <ul class="list-disc list-inside space-y-1 ml-2">
+                            <li><b>Photoshoot Note:</b> Every extra dress change requiring a touch-up (change of shadow or lip) is an extra <b>GHS 200</b>.</li>
+                            <li>All services come with <b>mink lashes</b> of your choice.</li>
+                            <li><b>Transportation Cost Included</b> in areas: Pantang, North Legon, Oyarifa, Abokobi, Adenta and environs. Areas outside these zones attract an extra fee.</li>
+                        </ul>
+                        <p class="font-bold text-gray-900 mt-4 border-t border-gray-400 pt-2">* Terms and Conditions Applied:</p>
+                        <ul class="list-disc list-inside space-y-1 ml-2">
+                            <li>A <b>50% deposit</b> is required to secure booking; this amount is non-refundable & non-transferable.</li>
+                            <li>The balance must be fully settled before service commences.</li>
+                            <li>A grace period of up to 30 minutes is allowed; any delay thereafter will attract a fee of <b>GHS 100 per hour</b>.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bridal Section -->
+    <section id="bridal" class="bg-black text-white py-16 px-4">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-4xl font-header font-bold mb-10 text-center gold-accent border-b-4 border-accent-brown pb-2">
+                Bridal Rate Packages
+            </h2>
+            <p class="text-center mb-10 text-lg md:px-12 leading-relaxed text-gray-300">
+                We believe every bride deserves to look and feel her absolute best on her big day. Our bridal packages are designed for a flawless, personalized look that reflects your style. We provide care, elegance, and timeless glam for both the bride and the bridal team.
+            </p>
+
+
+            <div class="grid grid-cols-1 gap-8">
+                <!-- Row 1 -->
+                <div class="flex flex-col md:flex-row items-stretch gap-6">
+                    <div class="md:w-1/2 flex items-center justify-center">
+                        <img src="images/bridalimage1.jpg" alt="Bridal Glam" class="mua-img max-h-80 w-full object-cover rounded-lg">
+                    </div>
+                    <div class="md:w-1/2 flex flex-col justify-center">
+                        <div class="bg-gray-900 p-6 rounded-lg shadow-xl h-full flex flex-col justify-center">
+                            <h4 class="text-xl font-header gold-accent font-bold mb-2">BRIDAL TRIAL</h4>
+                            <p class="text-gray-200 mb-2">3 Hours (Home/Studio). Different looks to suit each event.</p>
+                            <div class="text-right font-bold text-lg gold-accent">GHS 1000</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row 2 -->
+                <div class="flex flex-col md:flex-row items-stretch gap-6">
+                    <div class="md:w-1/2 flex items-center justify-center">
+                        <img src="images/bridalimage2.jpg" alt="Bridal Glam" class="mua-img max-h-80 w-full object-cover rounded-lg">
+                    </div>
+                    <div class="md:w-1/2 flex flex-col justify-center">
+                        <div class="bg-gray-900 p-6 rounded-lg shadow-xl h-full flex flex-col justify-center">
+                            <h4 class="text-xl font-header gold-accent font-bold mb-2">THE ELEGANT BRIDE</h4>
+                            <p class="text-gray-200 mb-2">White Wedding, Civil Wedding, OR Traditional (One Event). 3 Hours.</p>
+                            <div class="text-right font-bold text-lg gold-accent">GHS 2000</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row 3 -->
+                <div class="flex flex-col md:flex-row items-stretch gap-6">
+                    <div class="md:w-1/2 flex items-center justify-center">
+                        <img src="images/bridalimage3.jpg" alt="Bridal Glam" class="mua-img max-h-80 w-full object-cover rounded-lg">
+                    </div>
+                    <div class="md:w-1/2 flex flex-col justify-center">
+                        <div class="bg-gray-900 p-6 rounded-lg shadow-xl h-full flex flex-col justify-center">
+                            <h4 class="text-xl font-header gold-accent font-bold mb-2">SAME DAY EVENTS</h4>
+                            <p class="text-gray-200 mb-2">First look makeup + touch-up for subsequent look. 6 Hours.</p>
+                            <div class="text-right font-bold text-lg gold-accent">GHS 3500</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row 4 -->
+                <div class="flex flex-col md:flex-row items-stretch gap-6">
+                    <div class="md:w-1/2 flex items-center justify-center">
+                        <img src="images/bridalimage4.jpg" alt="Bridal Glam" class="mua-img max-h-80 w-full object-cover rounded-lg">
+                    </div>
+                    <div class="md:w-1/2 flex flex-col justify-center">
+                        <div class="bg-gray-900 p-6 rounded-lg shadow-xl h-full flex flex-col justify-center">
+                            <h4 class="text-xl font-header gold-accent font-bold mb-2">THE LUXE BRIDE (2-DAYS)</h4>
+                            <p class="text-gray-200 mb-2">Traditional & White Wedding / White Wedding & Reception. Full face 1st & 2nd day + touch-up (up to 2 looks).</p>
+                            <div class="text-right font-bold text-lg gold-accent">GHS 5000</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row 5 -->
+                <div class="flex flex-col md:flex-row items-stretch gap-6">
+                    <div class="md:w-1/2 flex items-center justify-center">
+                        <img src="images/bridalimage5.jpg" alt="Bridal Glam" class="mua-img max-h-80 w-full object-cover rounded-lg">
+                    </div>
+                    <div class="md:w-1/2 flex flex-col justify-center">
+                        <div class="bg-gray-900 p-6 rounded-lg shadow-xl h-full flex flex-col justify-center">
+                            <h4 class="text-xl font-header gold-accent font-bold mb-2">THE CLASSIC BYFEEYAH EXPERIENCE</h4>
+                            <p class="text-gray-200 mb-2">Bridal trial, Traditional, White Wedding + Reception, Mother of Bride (2 events).</p>
+                            <div class="text-right font-bold text-lg gold-accent">GHS 10000</div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <!-- A La Carte Options -->
+            <div class="mt-12">
+                <h3 class="text-3xl font-header font-semibold mb-6 text-center text-white">À LA CARTE OPTION</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="price-item text-white">
+                        <span class="font-body">Baby Christening</span>
+                        <span class="font-bold gold-accent">GHS 1000</span>
+                    </div>
+                    <div class="price-item text-white">
+                        <span class="font-body">Pre-wedding makeup</span>
+                        <span class="font-bold gold-accent">GHS 1000</span>
+                    </div>
+                    <div class="price-item text-white">
+                        <span class="font-body">Bridesmaid / Maid of Honor (MoH)</span>
+                        <span class="font-bold gold-accent">GHS 600</span>
+                    </div>
+                    <div class="price-item text-white">
+                        <span class="font-body">Bridesmaids (6H+)</span>
+                        <span class="font-bold gold-accent">GHS 500</span>
+                    </div>
+                    <div class="price-item text-white">
+                        <span class="font-body">Mother of Bride</span>
+                        <span class="font-bold gold-accent">GHS 600</span>
+                    </div>
+                    <div class="price-item text-white">
+                        <span class="font-body">Thanks Giving Service</span>
+                        <span class="font-bold gold-accent">GHS 1000</span>
+                    </div>
+                    <div class="price-item text-white">
+                        <span class="font-body">Reception Touch-up</span>
+                        <span class="font-bold gold-accent">GHS 1000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section & Footer -->
+    <footer id="contact" class="bg-gray-100 py-12 px-4">
+        <div class="container mx-auto max-w-4xl text-center">
+            <h2 class="text-4xl font-header font-bold mb-6 text-gray-900">
+                Contact & Booking Details
+            </h2>
+            
+            <div class="space-y-4 text-lg text-gray-700">
+                <p>
+                    <i class="fas fa-envelope gold-accent mr-2"></i> 
+                    <span class="font-semibold">Email:</span> 
+                    <a href="mailto:byfeeyahfaces@gmail.com" class="hover:gold-accent transition duration-300">byfeeyahfaces@gmail.com</a>
+                </p>
+                <p>
+                    <i class="fas fa-phone gold-accent mr-2"></i> 
+                    <span class="font-semibold">Call/WhatsApp:</span> 
+                    <a href="tel:+233558767763" class="hover:gold-accent transition duration-300">+233 55 876 7763</a>
+                </p>
+            </div>
+
+            <!-- Social Media -->
+            <div class="mt-8">
+                <a href="https://www.instagram.com/byfeeyahfaces" target="_blank" rel="noopener noreferrer" class="text-4xl gold-accent hover:text-gray-900 transition duration-300 mx-4">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <p class="text-sm mt-2 text-gray-500">
+                    Follow us on Instagram <span class="font-bold">@byfeeyahfaces</span>
+                </p>
+            </div>
+            
+            <p>&copy; <span id="year"></span> By Feeyah Faces. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

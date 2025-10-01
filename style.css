@@ -1,0 +1,50 @@
+/* Custom styles for a polished look */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@400;600&display=swap');
+
+.font-header {
+    font-family: 'Cormorant Garamond', serif;
+}
+.font-body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* --- Updated Colors: Coffee Brown Accent --- */
+.gold-accent {
+    color: #6F4E37; /* Coffee Brown Accent */
+}
+
+.border-accent-brown {
+    border-color: #6F4E37;
+}
+
+.bg-gold-light {
+    background-color: #EDE0D4; /* Light Cream/Brown background for sections */
+}
+
+/* Smooth scrolling for anchors */
+html {
+    scroll-behavior: smooth;
+}
+.hero-bg {
+    background-image: url('images/bridal2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Responsive image styling */
+.mua-img {
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 0.5rem; /* rounded corners */
+}
+
+/* Style for the price list items */
+.price-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px dashed #cccccc;
+}
