@@ -26,17 +26,30 @@ html {
     scroll-behavior: smooth;
 }
 .hero-bg {
-    background-image: url('images/bridal2.jpg');
+    background-image: url('images/bridal2.jpeg');
     background-size: cover;
     background-position: center;
 }
 
+.gallery-img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.gallery-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
 /* Responsive image styling */
 .mua-img {
     max-height: 400px;
     object-fit: cover;
     width: 100%;
     border-radius: 0.5rem; /* rounded corners */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.mua-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 /* Style for the price list items */
